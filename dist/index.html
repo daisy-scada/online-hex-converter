@@ -1,0 +1,19 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+        <title>Online hex converter</title>
+</head>
+
+<body>
+	<h1>Online hex converter</h1>
+<script type="module" >
+	import init, { add } from './online_hex_converter.js';
+	(async () => {
+	  await init()
+	  console.log(add(2,2))
+	})()
+</script>
+</body>
+
+</html> 
